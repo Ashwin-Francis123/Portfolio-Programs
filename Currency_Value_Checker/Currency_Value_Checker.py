@@ -12,4 +12,3 @@ try:
     print(currency.capitalize() + " Price: " + Stock_Price)
 except IndexError:
     print("Please use a valid currency")
-    
