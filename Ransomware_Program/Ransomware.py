@@ -4,7 +4,7 @@ from cryptography.fernet import Fernet
 files = []
 
 for file in os.listdir():
-  if file != "file2.txt":
+  if file != "file_to_test_ransomware.txt":
     continue
   if os.path.isfile(file):
     files.append(file)
