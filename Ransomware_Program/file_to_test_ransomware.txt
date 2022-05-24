@@ -1,0 +1,1 @@
+This file should be encrypted once Ransomware.py is ran. Run Decryptor.py to decrypt the files.
