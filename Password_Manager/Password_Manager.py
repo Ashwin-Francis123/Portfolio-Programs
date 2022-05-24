@@ -12,7 +12,7 @@ def generate_random_password(length):
     random.shuffle(password)
     return "".join(password)
 
-#Remember to use the correct user folder. It will be different depending on your username.
+#Line 16 can be edited based on where you want passwords.txt to be created. This will create it right where the program is stored.
 with open("passwords.txt", "at") as e:
     option = input("\nDo you want to\n"
                               "(E)xtract credentials or\n"
